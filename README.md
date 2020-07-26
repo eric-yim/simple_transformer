@@ -9,7 +9,7 @@ The transformer network has not been altered from its origin.
 
 The training .py has been set up for the inputs/outputs as described. 
 
-### Make sure it's working
+### Train on an Arbitrary Pattern
 
 As a dummy test, run the following.
 ```
@@ -27,5 +27,15 @@ The transformer should then be able to predict what comes next, one at a time.
 
 
 Model parameters are in the singleout_config.py
+
+### Make Sure Its Working
+```
+python3 singleout_eval.py
+```
+You should be able to get the following to print out.
+
+Input Prompt: [4]
+
+Completed Prompt: [[4 3 5 6 7 9 8 1]]
 
 
