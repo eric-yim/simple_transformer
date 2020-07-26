@@ -1,7 +1,7 @@
 ### Transformer as replacement to RNN
-It is often the goal to simply predict the next step in a sequence, or the next word in a sentence. Though basic code for language-to-language transformers is easily found, I've not been able to find code for a simplified transformer than can just predict the next step. It is hard to edit code within the transformers because understanding the inner workings of the transformer is quite involved.
+It is often a goal to predict the next step in a sequence, i.e. the next word in a sentence. Though we've found basic code for language-to-language transformers, we've not been able to find code for a simplified transformer that can predict the next step (especially in the same language). It is hard to edit code within the transformers because understanding the inner workings of the transformer is quite involved.
 
-For my friends who don't want to think about how a transformer works, but want to use its power, here is a set up you can use.
+For our friends who don't want to think about how a transformer works, but want to use its power, here is a set up you can use.
 
 An example input is a matrix (Batch x SequenceLength) composed of integers. The output is a matrix (Batch x 1), which is the next term in the sequence.
 
